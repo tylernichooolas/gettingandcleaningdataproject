@@ -66,7 +66,7 @@
             row <- row + 1
         }
     }
-    head(result)
-    write.table(result, "datawithmeans.txt") # write out the second data set
-    # data <- read.table("./datawithmeans.txt")
-    # data[1:12, 1:3]
+      head(result)
+      write.table(result, "datawithmeans.txt") # write out the second data set
+      # data <- read.table("./datawithmeans.txt")
+      # data[1:12, 1:3]
